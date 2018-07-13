@@ -1,5 +1,6 @@
-num = int(input('Introduzca un numero: '))
-ifnum % 2 == 0:
-print('Par')
+num1 = int(input('Introduzca un numero1: '))
+num2= int(input('Introduzca un numero2: '))
+if num1 > num2:
+print('Mayor es: ', num1)
 else:
-print('Impar')
+print('Menor es: ', num2)
